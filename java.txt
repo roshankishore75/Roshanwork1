@@ -1,0 +1,111 @@
+object oriented features:
+class
+object
+encapsulation
+abstraction
+inheritance
+polymorphisnm
+message passing
+
+on the base of above features the are two different types of programming languages
+
+object oriented programming languge  :with inheritance feature
+object based programming language   :without inheritance fearure
+
+class:
+  A class is a group of elements having similar properties and beahaviour.
+
+object:
+ Object is an individuaval element among the group of elements having physical identity,physical proreties and physical behaviour
+
+encapsulation:
+
+Encapsulation is a process of binding data and coding part as single unit.
+
+Abstraction:
+  The process of visualizing necessary implementaion or elements and the process of hiding unnecessary elements or implementaion part is called Abstraction.
+
+
+inheritance:
+
+the process of getting methods and varibles from one class to another class
+
+
+polymorphism:
+
+poly means many,morphism means structures
+
+if onr thing is existed more than one form is called polymorphism.
+
+message passing :
+
+the process of bypassing the data along with the flow of execution from one instruction to another instruction is called messagepassing.
+
+containers in java:
+
+three types
+
+class
+interface
+abstract
+
+class:
+if we have to use classes in java applications 
+
+Declare class by using class key word
+declare entity data in the form of variables.
+declare entity behaviours in the form of methods.
+in main class,in main method,create an object and refrence variables
+access the members of the class by using refrence variable.
+
+
+
+how to create packages and what is best way to give name
+
+what is main method will do?
+
+ the purpose main() method in java appalication is:
+To manage application logic in java applications.
+To define starting point and ending point for the application execution.
+
+creating property/data members :
+
+what is data type and different data types`?
+
+java is strictly a typed programming language. 
+where in java applications before going to represent the data first we have to decide which type of data we are representing.
+to decide the type of data which we are representing we have to use data types.
+in java applications data types are able to provide following advantages:
+we can identify memory sizes for the data to store
+we can identify the range of values which we want to assign the varibles
+
+
+datatypes:
+primitive /primary data types
+user defined /secondary data types
+
+primitive or primary data types:
+numeric data types
+non numberic dat types
+
+
+numeric data types:
+interger data types:byte-1,short-2,int-4,long-8
+non integer data types:Float-4,Double-8
+
+non-numeric datatypes:char-2,boolean-1 bit
+
+user defined or secondary data types:
+
+What is variable?
+creating method with void 
+creating variable, we can create variables inside method
+creating method with return data type, int/string/double/float/date etc
+method that will return hard coded value
+Create default/paramterzied constructors (overloaded constructor)
+method that will return property value
+creating method with return data type and parameter
+creating static property: 
+creating static method
+create static block
+creating object

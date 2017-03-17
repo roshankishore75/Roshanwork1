@@ -1,0 +1,107 @@
+Why testing required ?
+
+to unearth and correct defects
+to detect defects early ans to reduce cost of defect fixing
+to ensure that product works as user expected it to
+to avoid user detecting problem
+
+What types of application we test
+
+Desktop Applications
+Web Applications
+Enterprize Applications
+Mobile Applications
+
+what is SDLC and different phases in SDLC?
+ 
+Software development life cycle is a process or methodology used to develop a software in a systematic Approach.
+
+SDLC has 6 phases:
+Requrement gathering
+Analysis and planning
+Software design
+coding
+testing
+Release And Maintenance
+
+Different types of SDLC models:
+
+Sequential model
+Iterative or incremental model
+
+Sequential models:
+waterfall model 
+v model
+
+Iterartive or incremental models:
+
+prototyping model
+Sprial model
+Agile model
+
+what is waterfall method
+
+Water fall model is Sequential design process,used in software development process.
+
+Roles :
+business analyst or business team requirements gathering
+technical manager or senior developers in Analysis and project manager in planning
+System architect or tech lead design
+Development leads and developers in coding
+test leads,testers in testing phase
+project manager,release team anda maintance team  in release and maintance phase
+
+
+what is agile method
+ Agile means moving quickely,when applied to software development, it means that delevering the software that meets customer requirements in shortest possible time.
+
+
+
+Agile models:
+Extreme programming
+Scum model
+
+what is scrum methodology
+Scrum is an iterative and incermental Agile SD methodology for managing software development
+ in this model ,system is divided into small parts know as Sprints.the duration of each sprint can range From  one week to three weeks.
+at the end of the work,team members and stake holders meet to assess the progress of the project and identify further plan of action.
+this assessment can be helps in taking stalk of the currents state and rework the line of work and complete the project on time and not just predict the further outcome
+
+
+what is the process in agile model
+
+Agile softwarelife cycle is an iterative process when software is ready at each iteration but can always be improved in next iteration
+
+what is product back log items?
+  
+in scrum,a product backlog item is a unit of work small enough to be completed by a team in one sprint iteration.backlog items are decomposed into one or more tasks
+
+what is user story/feature/sprint back log items and tasks in user story?
+
+Sprint baclog contains just the things we'll work on during one sprint
+
+
+
+what is sprint planing meeting
+what is sprint review meeting
+what is sprint retrospective 
+what is sprint grooming
+what is burndown chart and velocity
+what is user acceptance criteria test cases
+
+what is v model?
+
+v model is also known as verification and validation model.in v model ,testing is done in parallel with corresponding development activity
+
+
+what is STLC?
+what is defect?
+how to arise a defect and what we specify while logging defect?
+defect lifecycle
+What is unit testing?
+when do we use regression testing?
+What is integration testing?
+when do we use integration testing?
+when do we use smoke testing and sanity testing?
+what is unit testing?
+what is UAT?

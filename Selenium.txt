@@ -1,0 +1,57 @@
+What is selenium
+Selenium is a software tools to automate web browsers.
+For both computer and web applications.
+It is an open source software under the Apache 2.0 license ,mainly used for functional and regression testing
+
+
+QTP TO UFT NEW VERSION
+
+HP - UFT
+IBM - RFT
+MICROFOCUS - SILK TEST
+
+SELENIUM supports varius programming operating environments.
+
+ms windows  -UFT SUPPORTS
+linux        
+mac etc.....
+
+Selenium supports various supporting programming languages.
+
+java,c,perl,phyton,ruby,php.
+
+Selenium supports various Web Browsers.
+
+Fire fox,chrome,internet explorer,opera,safari,etc,,,,.
+
+Selenium IDE supports only FireFox.
+
+Selenium supports various testing frameworks that depends on programming enviroment
+
+role:
+to group test cases
+priotrize test cases
+test batch execution
+batch testing
+generating reports 
+ex:
+
+java -j unit,testNG
+c#.net- Nunit
+
+
+selenium have some draw backs
+
+web driver doesn't have any built in result report facility.
+
+
+Selenium tools Suit:
+ 
+
+
+
+
+
+
+
+

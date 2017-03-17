@@ -1,0 +1,664 @@
+What is Selenium?
+
+• Selenium is a suite of software tools to automate Web Browsers.
+
+• It is an Open source suite of tools mainly used for Functional and Regression Test Automation.
+
+• Selenium supports various Operating environments.
+
+MS Windows
+
+Linux
+
+Macintosh etc...
+
+• Selenium supports various Browsers.
+
+Mozilla Firefox
+
+IE
+
+Google Chrome
+
+Safari
+
+Opera etc...
+
+Note: Selenium IDE supports Mozilla Firefox only.
+
+• Selenium supports various programming environments to write programs (Test scripts)
+
+Java
+
+C#
+
+Python
+
+Perl
+
+Ruby
+
+PHP
+------------------------------------------------
+History of the Selenium Project
+
+• Selenium first came to life in 2004.
+
+• In 2006, Selenium WebDriver was launched at Google.
+
+• In 2008, the whole Selenium team decided to merge Selenium WebDriver with Selenium RC in order to form more powerful tool called Selenium 2.0
+------------------------------------------------
+Selenium's Tools Suite
+
+Selenium IDE 
+
+It is a Firefox browser plug in, used to create and execute Test cases.
+
+Selenium IDE features:
+
+• Create Test Cases, Test suites (We can Record test cases or type Test steps using element locators and Selenese commands)
+
+• Edit Test Cases
+
+• Execute Test cases, Test suites
+
+• Debug Test Cases.
+
+• Enhance Test Cases
+
+• Export Test cases to other formats (java, ruby etc...)
+
+Note: selenium IDE Test case default format is .html
+--------------------------------------
+Drawbacks of Selenium IDE
+
+• It supports Mozilla Firefox browser only.
+
+• It doesn't support Programming logic/features to enhance Test cases.
+
+• It doesn't support Data Driven Testing.
+
+• It is not suitable for complex test case design.
+
+• No centralized maintenance of Objects/Elements
+---------------------------------
+Selenium WebDriver
+
+• It is a Programming interface to create and execute Test cases.
+----------------------------------------
+Selenium IDE has IDE but doesn't have Programming interface
+
+Selenium WebDriver has Programming interface but doesn't have IDE
+
+UFT/QTP has both IDE as well as Programming interface
+-----------------------------------
+• Selenium WebDriver supports various programming environments to write programs.
+
+• Using Element/Object locators/properties and Webdriver Methods we can create and execute Test cases.
+
+• Selenium Webdriver supports various browsers to create and execute test case/test script/test
+
+Note: Browser driver varies from one browser to another.
+
+• Selenium WebDriver supports various operating environments
+
+Drawback of Selenium WebDriver
+
+• It doesn't generate detailed Test Reports.
+
+• No centralized maintenance of Object/elements
+------------------------------------------------
+Selenium Grid
+
+• Selenium Grid is used to execute tests across multiple browsers, operating environments and machines in parallel.
+33
+• Selenium Grid 2 supports Selenium RC Tests as well as Selenium WebDriver Tests.
+
+
+
+4) Selenium Supporting Environments
+
+5) Selenium License
+
+6) Testing Frameworks and Other tools used in Selenium
+
+7) Selenium Environment Setup
+
+8) Advantages of Selenium
+
+9) Disadvantages of selenium
+-------------------------------------------------
+4) Selenium Supporting Environments
+
+a) Operating Environment
+
+ MS Windows
+
+ Linux
+
+ Macintosh
+
+ Apple OX
+
+b) Application Environment
+
+ i) CUI based - Selenium doesn't support. 
+
+ ii) Windows based-Selenium doesn't support. 
+
+ iii) Web based- Selenium supports.
+
+ iv) Mobile based- Supports Mobile Applications which have Web forms.
+
+c) Programming Environment
+
+ Java
+
+ C#
+
+ Python
+
+ Perl
+
+ Ruby
+
+ PHP
+
+Note: Selenium IDE doesn't support any programming language.
+
+d) Browser Environment
+
+ Google Chrome
+
+ Mozilla Firefox
+
+ IE
+
+ Safari
+
+ Opera etc...
+
+Note: Selenium IDE supports Firefox Browser only.
+-------------------------------------------------
+5) Selenium License
+
+All Selenium Projects released under the Apache 2.0 License
+
+> Anybody can download and use all Selenium projects with free of cost.
+
+> Anybody can modify the source code and distribute the source code
+
+** Selling modified code is not allowed.
+-------------------------------------------------
+6) Testing Frameworks and Other tools used in Selenium
+
+Testing Frameworks
+
+ JUnit Framework
+
+ TestNG Framework
+
+Eclipse IDE - 
+
+> To create and execute Java programs, 
+
+> Add Selenium WebDriver .jar files to Java project and use Webdriver features.
+
+> Install TestNG/JUnit Testing Frameworks
+----------------
+
+Firebug and Firepath plug ins (Mozilla Firefox) for inspecting elements in Firefox browser.
+
+Note: Google Chrome and IE browsers have built Developer tools (F12) to inspect elements.
+
+Browser Drivers for Cross Browser Testing
+
+For Google Chrome, IE etc... Browsers, download Browser drivers and set driver path in test scripts.
+-------------------------------------------------
+7) Selenium Environment Setup
+
+Choose Selenium Tools
+
+ Selenium WebDriver to create Test cases.
+
+ Java as Programming Language
+
+ TestNG Framework as Test Runner.
+
+ Firebug and Firepath plug in for Mozilla browser to inspect Elements.
+
+ Browser Drivers etc...
+
+Configure Selenium:
+
+> Download Eclipse IDE and extract
+
+> Download Java software and Install.
+
+> Set Environment variable (Path variable).
+
+> Download Selenium WebDriver java language binding (seleniumhq.org) and add 
+  WebDriver jar file to Java project in Eclipse IDE.
+
+> Download and install Firebug and Firepath from Mozilla browser to inspect elements.
+
+> Download IE, Chrome etc... Browser drivers.
+
+> Download and install TestNG Testing Framework from Eclipse IDE
+-------------------------------------------------
+8) Advantages of Selenium
+
+ i) It is an Open source Software.
+
+ ii) It supports various Operating environments (Windows, Linux, Mac etc...)
+
+ iii) It supports various browsers (IE, Mozilla Firefox, Chrome, safari, Opera etc...)
+ 
+ iv) It supports various programming environments (Java, Perl, Python, Ruby and PHP)
+ 
+ v) It supports parallel Test execution.
+
+ vi) It uses less Hardware resources.
+-------------------------------------------------
+9) Disadvantages of Selenium
+
+ i) It supports Web based Applications only.
+
+ ii) No reliable support from anybody.
+
+ iii) No centralized maintenance of Elements/objects
+
+ iv) Difficult to setup environment.
+
+ v) Difficult to use.
+
+ vi) Limited support for Image based testing.
+
+ vii) New features may not work properly.
+
+ viii) No other tool integration for test management.
+
+ ix) No built in Reporting facility.
+-------------------------------------------------
+10) Selenium Vs. UFT
+
+   Selenium                                  UFT(Formerly QTP)
+------------------------------------------------------------------------------------
+1) Open Source                                     Vendor tool, License is required
+----------------------------------------------------------------------------------
+2) Supports various OS environments                MS Windows only
+-------------------------------------------------------------------------
+3) Supports various Programming environments       VBScript only
+---------------------------------------------------------------------------
+4) No Object Repositories                          Local and Shared object Repositories
+-------------------------------------------------------------------------------------
+5) No built-in Reporting feature.                  Built-in reporting feature.
+-----------------------------------------------------------------------------
+6) Selenium WebDriver has no IDE  UFT              Selenium IDE has no Programming Interface
+has both IDE and Programming Interface
+
+-------------------------------------------------------------------------------
+7) Uses less Hardware resources                   Uses more Hardware resources
+------------------------------------------------------------------------------
+8) Difficult to setup environment and use Easy to setup and use
+---------------------------------------------------------------------------
+9) Limited support for Image Testing  Rich support for Image Testing
+-----------------------------------------------------------------------------
+10) No reliable support   Support from HP
+---------------------------------------------------------------------
+11) No other tool integration    UFT can be integrated with ALM/QC for Test Management
+for Test management 
+-------------------------------------------------------------------------------------
+12) New features may not work properly New features will properly
+--------------------------------------------------------------------------- 
+13) No Add ins for supporting Application Add ins are required for supporting Application environments.
+Environments.
+--------------------------------------------------------------------
+14) Supports Web Applications only  Supports Desktop and Web Applications
+-----------------------------------------------------------------------------------
+15) No Authorized Certification  Authorized Certification program.
+-------------------------------------------------------------------------?
+
+
+
+ Software Test Life Cycle/STLC
+
+Selenium Test Process /Selenium Test Life Cycle
+
+i) Test Planning
+
+ii) Generating Basic Tests
+
+iii) Enhancing Tests 
+
+iv) Running and debugging Tests
+
+v) Analyzing Test Results and Reporting Defects.
+---------------------------------------
+Software Test Process/Software Testing Life Cycle
+---------------------------------------
+STLC Phases
+
+i) Test Planning
+
+ii) Test Design
+
+iii) Test Execution
+
+iv) Test Closure
+---------------------------------------
+i) Test Planning
+---------------------------------------
+Input/References
+
+Requirements
+Project Plan
+Test Strategy 
+---------------
+Design docs,
+Process guideline docs,
+Corporate standards docs etc...
+-------------------
+Tasks
+ i) Understanding and Analyzing Test Requirements
+ ii) Risk Analysis
+ iii) Test Strategy Implementation
+ iv) Test Estimations (Scope, Time, Resources, Budget etc...)
+ v) Team formation
+ vi) Test Plan documentation
+ vii) Configuration Management planning
+ viii) Traceability Matrix documentation
+ ix) Define Test Environment
+
+Output:
+Test Plan document
+---------------------------------------
+ii) Test Design
+---------------------------------------
+Input:
+
+Requirements (SRS)
+Test Plan Document
+---------
+Test Case Template
+-------------
+Design docs,
+Process guideline docs,
+Corporate standards docs etc...
+
+Tasks
+ Understanding Test Requirements
+ Generate Test scenarios
+ Test Case Documentation
+ Test Data Collection
+Output:
+Test case docs
+Test Data
+---------------------------------------
+3) Test Execution
+---------------------------------------
+Input:
+Requirements
+Test Plan document
+Test Case docs
+Test Data
+--------------
+Defect Report Template
+-----------------
+Readiness of AUT
+Readiness of Test Environment
+----------
+Tasks
+ Verify Test Environment setup
+ Create Test Batches
+ Test Execution
+  Sanity Testing/BVT/BAT
+  Comprehensive Testing
+  Reporting Defects
+  Tracking Defects
+  Re & Regression Testing Cycle 1
+  Sanity Testing
+  Select Test cases for Regression Testing Cycle 1
+  Re & Regression cycle 1 Tests execution
+  Reporting Defects
+  Tracking Defects
+  Re & Regression Testing Cycle 2
+  Sanity Testing
+  Select Test cases for Regression Testing Cycle 2 
+  Re & Regression cycle 2 Tests execution
+  Reporting Defects
+  Tracking Defects
+  .
+  .
+  Final Regression 
+--------------------
+Output:
+
+Opened and Closed Defect Reports
+Tested Software
+---------------------------------------
+4) Test Closure
+---------------------------------------
+Input:
+Requirements
+Test Plan Document
+Opened and Closed defect reports etc...
+---------------
+Test Summary Report Template
+
+Tasks
+ Evaluating Exit criteria 
+ Collect all documents and prepare Test Summary Report
+ Send Test Deliverables to Customer
+ Improvement suggestions for future projects.
+---------------------------------------
+Test Levels
+ Unit Testing
+ Integration Testing
+ System Testing
+ Acceptance Testing
+ 
+Test Types
+ Functional Testing (Database Testing is a Sub set) 
+ Performance Testing (Load Testing, Stress Testing, Spike Testing, Endurance Testing, Database Testing is a Sub set)
+ Usability Resting
+ Reliability Testing
+ Configuration Testing
+ etc...
+
+Test Execution Level
+ Sanity/Smoke Testing
+ Comprehensive Testing
+ Re & Regression Testing
+
+Test Design Techniques
+
+ Black box (EC, BVA, Decision Table Testing, State Transition Testing, use case Testing etc...)
+
+ White box (Statement Testing, Condition Testing, decision Testing etc...)
+ 
+ Experience based (Exploratory Testing, Error guessing etc...)
+---------------------------------------
+Selenium Test Process/Selenium Test Life Cycle
+---------------------------------------
+Phases
+
+i) Test Planning
+
+ii) Generating Basic Tests
+
+iii) Enhancing Tests
+
+iv) Running and Debugging Tests
+
+v) Analyzing Test Results and Reporting Defects
+
+
+
+
+
+Selenium Test Process
+---------------------------------------
+Selenium Test Life Cycle Phases :
+
+i) Test Planning
+
+ii) Generating Basic Tests
+
+iii) Enhancing Tests
+
+iv) Running and Debugging Tests
+
+v) Analyzing Test Results and Reporting Defects
+------------------------------------------------
+i) Test Planning
+------------------------------------------------
+> Get Application Environment (UI Design Technology, Database) Details from development team.
+
+> Analyze the AUT (Application Under Test) in terms of Object Identification.
+
+ Using Recording feature in Selenium IDE
+
+ Using Firebug and Firepath plug ins(Mozilla Firefox) we can inspect elements.
+
+> Select Test Cases for Automation
+
+ Tests that we have to execute on every build (Sanity Tests)
+
+ Tests that we have to execute on every modified build(Regression Tests)
+
+ Tests that we have to execute with multiple sets of Test Data(Data Driven Tests).
+
+> Select Testing Framework(JUnit/TestNG) and Implement.
+------------------------------------------------
+ii) Generating Basic Tests
+------------------------------------------------
+In UFT:
+ 1) Object Repository based Test Design (Recording, Keyword driven methodology)
+
+ 2) Descriptive Programming/Programmatic Descriptions
+
+In Selenium: 
+
+1) Selenium IDE
+ 
+ a) Using Recording
+
+ b) Type Test steps using Element locators and Selenium IDE/Selenese Commands.
+
+2) Selenium WebDriver
+
+ Using Element Locators and WebDriver methods.
+------------------------------------------------
+iii) Enhancing Test cases
+------------------------------------------------
+1) Inserting Verifications
+
+UFT:
+
+Using UFT Checkpoints Or Using VBScript Conditional Statements
+
+Selenium IDE:
+
+ Using Assert/Verify Commands
+
+Selenium WebDriver
+
+ a) Using Java Conditional Statements
+
+ b) Using TestNG Assertion Methods
+
+2) Parameterization
+
+Replacing constant (fixed) values using Parameters(Variables/Function Parameter etc...)
+
+We use Parameterization in Data driven Testing. 
+
+What is Data Driven Testing?
+
+Testing same Functionalities using multiple sets of Test Data.
+
+Why Data Driven Testing?
+
+For Positive and Negative Testing.
+-------------------
+Using Loop Statements and any files.
+
+3) Synchronization
+
+What is Synchronization?
+
+How to Synchronize Selenium with AUT?
+
+4) Error Handling
+
+Handling expected and unexpected errors.
+
+5) Adding Comments (Optional)
+
+Etc...
+------------------------------------------------
+iv) Running and Debugging Tests
+------------------------------------------------
+Running/Executing Tests (Mandatory)
+
+Single Test Run
+
+Test Batch Run/Batch Testing.
+
+ Using Testing Framework(JUnit/TestNG) we can conduct batch Testing.
+-----------------------
+Debugging Tests (Optional)
+--------------------------
+What is debugging?
+
+Locating and isolating Errors thru Step by Step execution.
+
+When Debugging is Required?
+
+Scenario 1: Test case is not showing any errors and providing correct output-Debugging is not required.
+
+Scenario 2: Test case is showing errors-Debugging is Optional.
+
+Scenario 3: Test case is not showing any errors and not providing correct output-Debugging is Required.
+
+x = a * b
+------------------------------------------------
+v) Analyzing Test Results and Reporting Defects
+------------------------------------------------
+Analyzing Test Results
+-----------------------
+ Selenium doesn't provide detailed Test Reports(Summary only).
+
+ Using either JUnit or TestNG we can get detailed Test Reports.
+---------------
+Status of Test Results in Functional Test Automation
+
+1) Pass (If expected = Actual)
+
+2) Fail (If expected Not equal Actual)
+
+3) Done (If there is no verifications in a Test case)
+
+4) Warning (if any interruption during Test execution)
+-----------------------------------------------
+Reporting Defects:
+------------------
+Selenium doesn't integrate with any tool for Test management /Defect management.
+
+Functional Test Automation Vs. Defect management
+------------------------------------------------------
+Selenium   Manual
+--------------------------------------------------
+Selenium   Bugzilla/Jira etc...
+-------------------------------------------------
+Selenium Tools - Open Source
+
+Eclipse IDE - Open Source
+
+Java - Open Source
+
+JUnit / TestNG Framework -Open Source
+
+Bugzilla for Defect management - Open Source.
+-----------------------------------------------?
